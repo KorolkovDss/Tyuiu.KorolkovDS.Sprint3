@@ -1,0 +1,16 @@
+﻿using Tyuiu.KorolkovDS.Sprint3.Task0.V9.Lib;
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+DataService ds = new DataService();
+double value = 0.5;
+int startValue = 1;
+int stopValue = 15;
+Console.WriteLine("Переменная Х: " +  value);
+Console.WriteLine("Старт шага = " +  startValue);
+Console.WriteLine("Конец шага = " +  stopValue);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue)); 
+Console.ReadKey();
