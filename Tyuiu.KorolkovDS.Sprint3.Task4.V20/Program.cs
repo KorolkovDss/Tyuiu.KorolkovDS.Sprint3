@@ -1,0 +1,15 @@
+﻿using Tyuiu.KorolkovDS.Sprint3.Task4.V20.Lib;
+DataService ds = new DataService();
+double res=0 ;
+int startValue = -5;
+int stopValue = 5;
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Cтарт шага = " +startValue);
+Console.WriteLine("Конец шага = " +stopValue);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Сумма ряда = " +ds.Calculate(startValue,stopValue));
+Console.ReadKey();
