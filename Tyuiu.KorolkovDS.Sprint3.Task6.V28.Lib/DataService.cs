@@ -12,7 +12,7 @@ namespace Tyuiu.KorolkovDS.Sprint3.Task6.V28.Lib
             {
                 for (int d = 1; d<= x; d++)
                 {
-                    if ( x % d == 0 && d<= 7) 
+                    if ( x % d == 0 && d< 7) 
                     {
                            sum++; 
                     }
